@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+var ip_address = $_SERVER["REMOTE_ADDR"];
+function docWrite(variable) {
+    document.write(variable);}
+</script>
+<html>
+<body>
+<h1>Want to know a little about yourself?</h1>
+<p>your ipv4 address is <script>docWrite(ip_address)</script> </p>
+</body>
+</html>
